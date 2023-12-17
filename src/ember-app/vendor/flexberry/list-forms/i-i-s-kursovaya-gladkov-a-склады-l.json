@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya-gladkov-a-склады-e",
+  "editForm": "i-i-s-kursovaya-gladkov-a-склады-e",
+  "external": false,
+  "caption": "Склады",
+  "name": "IISKursovaya_Gladkov_AСкладыL",
+  "className": "СкладыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-gladkov-a-склады",
+      "modelProjection": "СкладыL"
+    }
+  ]
+}

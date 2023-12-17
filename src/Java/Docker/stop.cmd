@@ -1,0 +1,1 @@
+docker-compose -p kursovaya_gladkov_a-java down

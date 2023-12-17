@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya-gladkov-a-тех-карта-e",
+  "editForm": "i-i-s-kursovaya-gladkov-a-тех-карта-e",
+  "external": false,
+  "caption": "Тех карта",
+  "name": "IISKursovaya_Gladkov_AТехКартаL",
+  "className": "ТехКартаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-gladkov-a-тех-карта",
+      "modelProjection": "ТехКартаL"
+    }
+  ]
+}

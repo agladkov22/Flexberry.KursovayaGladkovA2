@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya-gladkov-a-заявки-e",
+  "editForm": "i-i-s-kursovaya-gladkov-a-заявки-e",
+  "external": false,
+  "caption": "Заявки",
+  "name": "IISKursovaya_Gladkov_AЗаявкиL",
+  "className": "ЗаявкиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-gladkov-a-заявки",
+      "modelProjection": "ЗаявкиL"
+    }
+  ]
+}

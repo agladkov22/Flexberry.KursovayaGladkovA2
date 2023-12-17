@@ -1,0 +1,84 @@
+<h3 class="ui header">{{t "forms.i-i-s-kursovaya-gladkov-a-тех-карта-e.caption"}}</h3>
+
+<form class="ui form flexberry-vertical-form" role="form">
+  {{flexberry-error error=error}}
+  <div class="field">
+    <div class="flexberry-edit-panel">
+      {{#unless readonly}}
+        <button class="ui button save-button" {{action "save"}}>
+          {{t "forms.edit-form.save-button-text"}}
+        </button>
+        {{#unless model.isNew}}
+          <button class="ui button save-del-button" {{action "delete"}}>
+            {{t "forms.edit-form.delete-button-text"}}
+          </button>
+        {{/unless}}
+      {{/unless}}
+      <button class="ui button close-button" {{action "close"}}>
+        {{t "forms.edit-form.close-button-text"}}
+      </button>
+    </div>
+  </div>
+  <div class="field flexberry-validationsummary-container">
+    <div class="sixteen wide">
+      {{flexberry-validationsummary errors=(v-get validationObject "messages")}}
+    </div>
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.номерКарты
+      class=(if (v-get validationModel "номерКарты" "isInvalid") "error")
+      label=(t "forms.i-i-s-kursovaya-gladkov-a-тех-карта-e.номерКарты-caption")
+      data-test-i-i-s-kursovaya-gladkov-a-тех-карта-e-номерКарты=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "номерКарты" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-kursovaya-gladkov-a-тех-карта-e.дата-caption"}}</label>
+    {{flexberry-simpledatetime
+      type="date"
+      readonly=readonly
+      value=model.дата
+      class=(if (v-get validationModel "дата" "isInvalid") "error")
+      data-test-i-i-s-kursovaya-gladkov-a-тех-карта-e-дата=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "дата" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-kursovaya-gladkov-a-тех-карта-e.чертеж-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.чертеж
+      displayAttributeName="номерЧертежа"
+      autocomplete=true
+      relationName="чертеж"
+      projection="ЧертежL"
+      title=(t "forms.i-i-s-kursovaya-gladkov-a-тех-карта-e.чертеж-caption")
+      readonly=readonly
+      componentName="чертежLookup"
+      class=(if (v-get validationModel "чертеж" "isInvalid") "error")
+      data-test-i-i-s-kursovaya-gladkov-a-тех-карта-e-чертеж=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "чертеж" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-kursovaya-gladkov-a-тех-карта-e.оборудование-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.оборудование
+      displayAttributeName="наименование"
+      autocomplete=true
+      relationName="оборудование"
+      projection="ОборудованиеL"
+      title=(t "forms.i-i-s-kursovaya-gladkov-a-тех-карта-e.оборудование-caption")
+      readonly=readonly
+      componentName="оборудованиеLookup"
+      class=(if (v-get validationModel "оборудование" "isInvalid") "error")
+      data-test-i-i-s-kursovaya-gladkov-a-тех-карта-e-оборудование=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "оборудование" "message")}}
+  </div>
+</form>

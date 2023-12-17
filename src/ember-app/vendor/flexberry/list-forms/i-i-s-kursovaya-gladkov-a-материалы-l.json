@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya-gladkov-a-материалы-e",
+  "editForm": "i-i-s-kursovaya-gladkov-a-материалы-e",
+  "external": false,
+  "caption": "Материалы",
+  "name": "IISKursovaya_Gladkov_AМатериалыL",
+  "className": "МатериалыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-gladkov-a-материалы",
+      "modelProjection": "МатериалыL"
+    }
+  ]
+}

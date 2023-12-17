@@ -1,0 +1,31 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Клиенты",
+      "projection": "КлиентыL",
+      "detailModelName": null
+    },
+    {
+      "master": "материалы",
+      "displayAttributeName": "наименование",
+      "required": true,
+      "relationName": "ТчЗаявка.Материалы",
+      "projection": "МатериалыL",
+      "detailModelName": "i-i-s-kursovaya-gladkov-a-тч-заявка"
+    }
+  ],
+  "external": false,
+  "caption": "Заявки",
+  "name": "IISKursovaya_Gladkov_AЗаявкиE",
+  "className": "ЗаявкиE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-gladkov-a-заявки",
+      "modelProjection": "ЗаявкиE"
+    }
+  ]
+}

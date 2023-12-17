@@ -1,0 +1,64 @@
+﻿{
+  "applicationCaption": "Kursovaya_ gladkov_ A",
+  "applicationTitle": "Kursovaya_ gladkov_ A",
+  "items": [
+    {
+      "link": null,
+      "menuName": "kursovaya-gladkov-a",
+      "caption": "Kursovaya_Gladkov_A",
+      "title": "Kursovaya_Gladkov_A",
+      "children": [
+        {
+          "link": "i-i-s-kursovaya-gladkov-a-клиенты-l",
+          "menuName": null,
+          "caption": "Клиенты",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya-gladkov-a-оборудование-l",
+          "menuName": null,
+          "caption": "Оборудование",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya-gladkov-a-склады-l",
+          "menuName": null,
+          "caption": "Склады",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya-gladkov-a-тех-карта-l",
+          "menuName": null,
+          "caption": "Тех карта",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya-gladkov-a-заявки-l",
+          "menuName": null,
+          "caption": "Заявки",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya-gladkov-a-чертеж-l",
+          "menuName": null,
+          "caption": "Чертеж",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya-gladkov-a-материалы-l",
+          "menuName": null,
+          "caption": "Материалы",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

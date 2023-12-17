@@ -1,0 +1,31 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Чертеж",
+      "projection": "ЧертежL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Оборудование",
+      "projection": "ОборудованиеL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Тех карта",
+  "name": "IISKursovaya_Gladkov_AТехКартаE",
+  "className": "ТехКартаE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-gladkov-a-тех-карта",
+      "modelProjection": "ТехКартаE"
+    }
+  ]
+}

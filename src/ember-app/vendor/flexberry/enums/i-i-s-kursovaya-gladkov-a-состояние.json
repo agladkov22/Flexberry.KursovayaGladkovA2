@@ -1,0 +1,8 @@
+﻿{
+  "nameSpace": "IIS.Kursovaya_Gladkov_A",
+  "className": "Состояние",
+  "enumObjects": {
+    "Работает": "Работает",
+    "Ремонт": "В ремонте"
+  }
+}
